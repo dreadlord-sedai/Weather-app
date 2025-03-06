@@ -1,7 +1,21 @@
 # Weather App
 
-## Overview
-The Weather App is a minimalistic web application that provides real-time weather information using the OpenWeather API. It displays the current weather conditions and a 5-day forecast for any city worldwide. The app features a responsive design with dark mode support and allows users to save their favorite cities.
+![image](screenshot.png)
+
+## Table of Contents
+- [Weather App](#weather-app)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+
+## Introduction
+The Weather App is a minimalistic web application designed to provide real-time weather information using the OpenWeather API. It aims to deliver current weather conditions and a 5-day forecast for any city worldwide, featuring a responsive design with dark mode support.
 
 ## Features
 - Real-time weather data from the OpenWeather API
@@ -12,42 +26,81 @@ The Weather App is a minimalistic web application that provides real-time weathe
 - Mock data mode for testing without API calls
 
 ## Technologies Used
-- HTML5, CSS3, JavaScript
-- Tailwind CSS for utility-first styling
-- SASS for custom styles
-- OpenWeather API for weather data
+- **HTML5**: Structure and content of the web pages
+- **CSS3**: Styling and layout of the web pages
+- **JavaScript**: Logic for fetching and displaying weather data
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **SASS**: CSS preprocessor for custom styles
 
-## Setup Instructions
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd weather-app
-   ```
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,sass" />
+  </a>
+</p>
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## Installation
+To get a local copy up and running, follow these steps:
 
-3. **Build the project**
-   ```bash
-   npm run build
-   ```
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/[your-username]/weather-app.git
+    ```
 
-4. **Start the development server**
-   ```bash
-   npm run serve
-   ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd weather-app
+    ```
 
-5. **Open the app in your browser**
-   Navigate to `http://localhost:8080` to view the app.
+3. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-## Configuration
-- **API Key**: Replace the placeholder API key in `js/main.js` with your OpenWeather API key.
-- **Mock Data**: Set `USE_MOCK_DATA` to `true` in `js/main.js` to use mock data for testing.
+4. **Build the project**:
+    ```sh
+    npm run build
+    ```
+
+5. **Start the development server**:
+    ```sh
+    npm run serve
+    ```
+
+6. **Open the app in your browser**:
+    Navigate to `http://localhost:8080` to view the app.
+
+## Usage
+- Enter a city name in the search bar to get current weather and forecast
+- Toggle between Celsius and Fahrenheit for temperature units
+- Save your favorite cities for quick access
+- Use the dark mode toggle for a different theme
+
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or feedback, feel free to reach out:
+
+- **Your Name**: [your-email@example.com](mailto:dahamifabbio@gmail.com)
+- **GitHub**: [your-github-username](https://github.com/dreadlord-sedai)
 
 ## Acknowledgments
 - [OpenWeather API](https://openweathermap.org/api) for providing weather data
@@ -80,6 +133,6 @@ This application uses the OpenWeather API to fetch weather data. The free tier a
 
 - Current Weather Data: `https://api.openweathermap.org/data/2.5/weather`
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome! 
+## Configuration
+- **API Key**: Replace the placeholder API key in `js/main.js` with your OpenWeather API key.
+- **Mock Data**: Set `USE_MOCK_DATA` to `true` in `js/main.js` to use mock data for testing. 
