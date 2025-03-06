@@ -44,7 +44,7 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/[your-username]/weather-app.git
+    git clone https://github.com/dreadlord-sedai/weather-app.git
     ```
 
 2. **Navigate to the project directory**:
