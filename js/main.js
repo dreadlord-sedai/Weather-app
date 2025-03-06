@@ -4,7 +4,7 @@ const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast";
 
 // Explicitly set to FALSE to use the real OpenWeather API
-const USE_MOCK_DATA = True; // Set to false to use the real API with API key above
+const USE_MOCK_DATA = false; // Set to false to use the real API with API key above
 const MOCK_DATA_URL = "data/mockWeather.json";
 
 // Current temperature unit (metric = Celsius, imperial = Fahrenheit)
