@@ -49,7 +49,7 @@ currentYearElement.textContent = new Date().getFullYear();
 function initDarkMode() {
     const isDarkMode = localStorage.getItem("darkMode") === "true";
     darkModeToggle.checked = isDarkMode;
-    updateDarkMode(isDarkMode)
+    updateDarkMode(isDarkMode);
 }
 
 // Toggle dark mode
