@@ -8,7 +8,7 @@
     "watch:tailwind": "tailwindcss -i ./styles/tailwind.css -o ./dist/tailwind.css --watch",
     "build:sass": "sass styles/main.scss dist/main.css",
     "watch:sass": "sass styles/main.scss dist/main.css --watch",
-    "build": "npm run build:tailwind && npm run build:sass",
+    "build": "npm run build:tailwind && npm run build:sass && cp index.html dist/index.html",
     "dev": "npm-run-all --parallel watch:*",
     "serve": "npx http-server -o index.html"
   },
