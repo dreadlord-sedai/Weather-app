@@ -27,7 +27,7 @@ const savedCitiesContainer = document.getElementById("savedCitiesContainer");
 const savedCitiesList = document.getElementById("savedCitiesList");
 
 // Weather data elements
-const cityNameElement = document.getElmentById("cityName");
+const cityNameElement = document.getElementById("cityName");
 const dateTimeElement = document.getElementById("dateTime");
 const temperatureElement = document.getElementById("temperature");
 const feelsLikeElement = document.getElementById("feelsLike");
