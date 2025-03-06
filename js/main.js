@@ -571,7 +571,7 @@ function displayForecastData(data) {
         const description = midDayForecast.weather[0].description;
         
         const forecastItem = document.createElement("div");
-        forecastItem.className = "forecast-item bg-white dark:bg-gray-800 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-shadow";
+        forecastItem.className = "forecast-item bg-white dark:bg-gray-700 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-shadow";
         forecastItem.dataset.temp = temp;
         
         forecastItem.innerHTML = `
