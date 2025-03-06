@@ -11,7 +11,7 @@ const MOCK_DATA_URL = "data/mockWeather.json";
 let currentUnit = "metric";
 
 // DOM elements
-const cityInput = document.getElementById("cityInput")
+const cityInput = document.getElementById("cityInput");
 const searchButton = document.getElementById("searchButton");
 const loadingIndicator = document.getElementById("loadingIndicator");
 const weatherData = document.getElementById("weatherData");
