@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A minimalistic weather app with OpenWeather API",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss -i ./styles/tailwind.css -o ./dist/tailwind.css",
+    "watch:tailwind": "tailwindcss -i ./styles/tailwind.css -o ./dist/tailwind.css --watch",
+    "build:sass": "sass styles/main.scss dist/main.css",
+    "watch:sass": "sass styles/main.scss dist/main.css --watch",
+    "build": "npm run build:tailwind && npm run build:sass",
+    "dev": "npm-run-all --parallel watch:*",
+    "serve": "npx http-server -o index.html"
+  },
+  "keywords": ["weather", "tailwindcss", "sass"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.24",
+    "sass": "^1.63.4",
+    "tailwindcss": "^3.3.2"
+  }
+} 

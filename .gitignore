@@ -1,0 +1,29 @@
+ # Node modules
+node_modules/
+
+# Build outputs
+dist/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SASS cache
+.sass-cache/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Compiled files
+*.css.map
+
+# Miscellaneous
+*.tmp
+*.swp

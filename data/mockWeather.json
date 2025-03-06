@@ -1,0 +1,224 @@
+{
+  "cities": {
+    "new york": {
+      "coord": {
+        "lon": -74.0060,
+        "lat": 40.7128
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 22.5,
+        "feels_like": 21.8,
+        "temp_min": 20.2,
+        "temp_max": 24.3,
+        "pressure": 1015,
+        "humidity": 65
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 250
+      },
+      "clouds": {
+        "all": 5
+      },
+      "dt": 1683041600,
+      "sys": {
+        "type": 2,
+        "id": 2039034,
+        "country": "US",
+        "sunrise": 1683016800,
+        "sunset": 1683066000
+      },
+      "timezone": -14400,
+      "id": 5128581,
+      "name": "New York",
+      "cod": 200
+    },
+    "london": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 300,
+          "main": "Drizzle",
+          "description": "light intensity drizzle",
+          "icon": "09d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 15.3,
+        "feels_like": 14.9,
+        "temp_min": 13.8,
+        "temp_max": 16.7,
+        "pressure": 1011,
+        "humidity": 78
+      },
+      "visibility": 8000,
+      "wind": {
+        "speed": 5.1,
+        "deg": 220
+      },
+      "clouds": {
+        "all": 75
+      },
+      "dt": 1683041600,
+      "sys": {
+        "type": 2,
+        "id": 2006068,
+        "country": "GB",
+        "sunrise": 1683000600,
+        "sunset": 1683054000
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    },
+    "tokyo": {
+      "coord": {
+        "lon": 139.6917,
+        "lat": 35.6895
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 19.2,
+        "feels_like": 19.5,
+        "temp_min": 17.8,
+        "temp_max": 20.9,
+        "pressure": 1006,
+        "humidity": 88
+      },
+      "visibility": 6000,
+      "wind": {
+        "speed": 2.1,
+        "deg": 80
+      },
+      "rain": {
+        "1h": 0.5
+      },
+      "clouds": {
+        "all": 90
+      },
+      "dt": 1683041600,
+      "sys": {
+        "type": 2,
+        "id": 2001603,
+        "country": "JP",
+        "sunrise": 1682971800,
+        "sunset": 1683021000
+      },
+      "timezone": 32400,
+      "id": 1850147,
+      "name": "Tokyo",
+      "cod": 200
+    },
+    "default": {
+      "coord": {
+        "lon": -74.0060,
+        "lat": 40.7128
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 22.5,
+        "feels_like": 21.8,
+        "temp_min": 20.2,
+        "temp_max": 24.3,
+        "pressure": 1015,
+        "humidity": 65
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 250
+      },
+      "clouds": {
+        "all": 5
+      },
+      "dt": 1683041600,
+      "sys": {
+        "type": 2,
+        "id": 2039034,
+        "country": "US",
+        "sunrise": 1683016800,
+        "sunset": 1683066000
+      },
+      "timezone": -14400,
+      "id": 5128581,
+      "name": "Your City",
+      "cod": 200
+    }
+  },
+  "coordinates": {
+    "default": {
+      "coord": {
+        "lon": -74.0060,
+        "lat": 40.7128
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 22.5,
+        "feels_like": 21.8,
+        "temp_min": 20.2,
+        "temp_max": 24.3,
+        "pressure": 1015,
+        "humidity": 65
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 250
+      },
+      "clouds": {
+        "all": 5
+      },
+      "dt": 1683041600,
+      "sys": {
+        "type": 2,
+        "id": 2039034,
+        "country": "US",
+        "sunrise": 1683016800,
+        "sunset": 1683066000
+      },
+      "timezone": -14400,
+      "id": 5128581,
+      "name": "Current Location",
+      "cod": 200
+    }
+  }
+} 
