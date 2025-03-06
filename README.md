@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-Check out the live demo of the Weather App: [Weather App Live](https://weather-mfrajz0hp-dahami-fabbios-projects.vercel.app/)
+Check out the live demo of the Weather App: [Weather App Live](https://weather-app-delta-lac.vercel.app/)
 
 ## Table of Contents
 - [Weather App](#weather-app)
