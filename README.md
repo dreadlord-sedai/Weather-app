@@ -1,9 +1,19 @@
 # Weather App
 
-![image](screenshot.png)
+
+## Screenshots
+
+<details>
+  <summary>View Screenshots</summary>
+  
+  ![Screenshot 1](images/screenshot1.png)
+  ![Screenshot 2](images/screenshot2.png)
+
+</details>
 
 ## Table of Contents
 - [Weather App](#weather-app)
+  - [Screenshots](#screenshots)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
