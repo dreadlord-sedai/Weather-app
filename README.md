@@ -29,12 +29,13 @@ The Weather App is a minimalistic web application designed to provide real-time 
 - **HTML5**: Structure and content of the web pages
 - **CSS3**: Styling and layout of the web pages
 - **JavaScript**: Logic for fetching and displaying weather data
+- **Node.js**: JavaScript runtime for executing build scripts
 - **Tailwind CSS**: Utility-first CSS framework for styling
 - **SASS**: CSS preprocessor for custom styles
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,sass" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,tailwind,sass" />
   </a>
 </p>
 
